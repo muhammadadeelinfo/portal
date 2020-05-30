@@ -38,4 +38,52 @@ header {
   width: 25px;
   margin-top: 45%;
 }
+
+.server {
+  width: 70%;
+  margin: 2em auto 2em 25%;
+}
+
+.subdead {
+  font-size: 1.1em;
+}
+
+.blue-container {
+  width: 100%;
+  background: #6bd3fc;
+  color: white;
+  margin-top: 15%;
+  padding: 4em 0 2em;
+  border-top-left-radius: 40px;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+}
+
+.blue-container ul {
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+}
+
+.blue-container:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #6bd3fc;
+  position: absolute;
+  top: -39px;
+  right: 0;
+  z-index: -2;
+}
+
+.blue-container:after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  border-radius: 50%;
+  z-index: -1;
+}
 /*# sourceMappingURL=main.css.map */
